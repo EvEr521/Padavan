@@ -1,7 +1,5 @@
 name: CI
 
-on: 
-jobs:
   build:
     name: build
     runs-on: ubuntu-20.04
