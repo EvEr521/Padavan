@@ -1,6 +1,11 @@
 SRC_NAME = chinadns-ng
 THISDIR = $(shell pwd)
 
+git clone https://github.com/zfl9/chinadns-ng
+
+cd chinadns-ng
+
+make && sudo make install
 all: 
 	$(MAKE) -j$(HOST_NCPU) -C $(SRC_NAME)
 
